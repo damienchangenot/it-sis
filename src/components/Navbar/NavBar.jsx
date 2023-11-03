@@ -19,7 +19,7 @@ export default function NavBar()
                     <li><Link to="partenaires">Mécénats / Partenariats</Link></li>
                 </ul>
                 </div>
-                <img src={logoHeader} alt=""/>
+                <img src={logoHeader} alt="" width="70"/>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -31,8 +31,8 @@ export default function NavBar()
                 <li><Link to="/partenaires">Mécénats / Partenariats</Link></li>
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a href="https://get.teamviewer.com/q7c2du5" target="_blank" className="btn btn-error">Support Technique</a>
+            <div className="navbar-end ">
+                <a href="https://get.teamviewer.com/q7c2du5" target="_blank" className="btn btn-error btn-sm">Support Technique</a>
             </div>
         </div>
     </>

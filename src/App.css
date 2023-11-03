@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 body{
     font-family: 'Montserrat', sans-serif;   
+}
+
+h1, h2 {
+    font-family: 'Kanit', sans-serif;
 }
