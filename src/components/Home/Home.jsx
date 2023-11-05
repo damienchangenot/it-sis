@@ -1,5 +1,6 @@
 import React from 'react'
 import Reference from './Reference/Reference'
+import Societe from '../Societe/Societe'
 import background from '../../assets/background.jpg'
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+    <Societe>&</Societe>
     <Reference></Reference>
     </>
   )
