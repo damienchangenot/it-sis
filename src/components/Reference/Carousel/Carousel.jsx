@@ -1,12 +1,12 @@
 import React from 'react'
 import './Carousel.scss';
-import mars from '../../../../assets/reference/mars.png';
-import martin from '../../../../assets/reference/martin.png';
-import acmAgro from '../../../../assets/reference/ACM-agro.png';
-import acmPharma from '../../../../assets/reference/ACM-Pharma.jpg';
-import kgf from '../../../../assets/reference/kgf.png';
-import fft from '../../../../assets/reference/fft-logo.webp';
-import mairie from '../../../../assets/reference/fleury.jpg';
+import mars from '../../../assets/reference/mars.png';
+import martin from '../../../assets/reference/martin.png';
+import acmAgro from '../../../assets/reference/ACM-agro.png';
+import acmPharma from '../../../assets/reference/ACM-Pharma.jpg';
+import kgf from '../../../assets/reference/kgf.png';
+import fft from '../../../assets/reference/fft-logo.webp';
+import mairie from '../../../assets/reference/fleury.jpg';
 export default function Carousel({images}) {
   return (
     <div className="slider">

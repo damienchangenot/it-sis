@@ -1,6 +1,6 @@
 import logoHeader from '../../assets/logo-header.png';
 import { Link } from 'react-router-dom';
-
+import settings from  '../../assets/icons/settings.png'
 export default function NavBar()
 {
     return <>
@@ -12,7 +12,6 @@ export default function NavBar()
                 </label>
                 <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                     <li><Link to="/">Acceuil</Link></li>
-                    <li><Link to="/societe">Société</Link></li>
                     <li><Link to="/metiers">Métiers</Link></li>
                     <li><Link to="/recrutement">Recrutement</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
@@ -24,7 +23,6 @@ export default function NavBar()
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                 <li><Link to="/">Acceuil</Link></li>
-                <li><Link to="/societe">Société</Link></li>
                 <li><Link to="/metiers">Métiers</Link></li>
                 <li><Link to="/recrutement">Recrutement</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
@@ -32,7 +30,7 @@ export default function NavBar()
                 </ul>
             </div>
             <div className="navbar-end ">
-                <a href="https://get.teamviewer.com/q7c2du5" target="_blank" className="btn btn-error btn-sm">Support Technique</a>
+                <a href="https://get.teamviewer.com/q7c2du5" target="_blank" className="btn btn-error btn-sm"><img src={settings} alt="icon setting" />Support Technique</a>
             </div>
         </div>
     </>

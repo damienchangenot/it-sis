@@ -1,6 +1,6 @@
 import React from 'react'
-import Reference from './Reference/Reference'
-import Societe from '../Societe/Societe'
+import Reference from '../../components/Reference/Reference'
+import Societe from '../../components/Societe/Societe'
 import background from '../../assets/background.jpg'
 export default function Home() {
   return (
@@ -11,12 +11,12 @@ export default function Home() {
           <div>
             <h1 className="mb-5 text-6xl font-bold">Services, conseils & solutions</h1>
             <p className="mb-5">en gestion des infrastructures informatiques</p>
-            <a href="" className="btn btn-primary">Découvrir</a>
+            <a href="#societe" className="btn btn-primary">Découvrir</a>
           </div>
         </div>
       </div>
-    <Societe>&</Societe>
-    <Reference></Reference>
+      <Societe></Societe>
+      <Reference></Reference>
     </>
   )
 }
