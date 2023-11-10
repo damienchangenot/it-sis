@@ -11,7 +11,7 @@ export default function Home() {
           <div>
             <h1 className="mb-5 text-6xl font-bold">Services, conseils & solutions</h1>
             <p className="mb-5">en gestion des infrastructures informatiques</p>
-            <a href="#societe" className="btn btn-primary">Découvrir</a>
+            <a href="#societe" className="btn btn-info">Découvrir</a>
           </div>
         </div>
       </div>
