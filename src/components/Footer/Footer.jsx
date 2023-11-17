@@ -20,7 +20,7 @@ export default function Footer() {
             </div>
         </nav> 
         <aside>
-            <p>Copyright © 2023 - All right reserved by IT-sis</p>
+            <p>Fait avec ❤ par <a href="https://github.com/damienchangenot" target="_blank">Damien Changenot</a> - Copyright © 2023 - All right reserved by IT-sis</p>
         </aside>
     </footer>
     </>

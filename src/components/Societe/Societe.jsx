@@ -22,11 +22,11 @@ export default function Societe() {
   ]
   return (
     <section id="societe" className=''>
-      <h2>Société</h2>
+      <h2 className='text-4xl text-center my-4'>La société</h2>
       <div >
         <div className=' flex flex-col gap-4 py-5 items-center justify-center'>
           {datas.map((data, index) => {
-            return <a key={data[0]} className="rounded-sm w-4/5 grid grid-cols-12 bg-white shadow p-3 gap-2 items-center hover:shadow-lg transition delay-150 duration-300 ease-in-out hover:scale-105 transform" href="#">
+            return <a key={data[0]} className="rounded-sm w-4/5 grid grid-cols-12 bg-white shadow shadow-black p-3 gap-2 items-center hover:shadow-lg transition duration-300 ease-in-out hover:scale-105 transform" href="#">
               <div className="col-span-12 md:col-span-1">
                   <img className='h-10 w-10' src={data[2]} alt="icon solution" />
               </div>

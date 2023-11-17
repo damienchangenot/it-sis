@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body{
     font-family: 'Montserrat', sans-serif;   
@@ -7,4 +10,15 @@ body{
 
 h1, h2 {
     font-family: 'Kanit', sans-serif;
+}
+
+.dropdown label::after {
+    display: inline-block;
+    margin-left: 0.5em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
 }
