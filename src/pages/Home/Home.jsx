@@ -25,7 +25,7 @@ export default function Home() {
       </div>
       <section id="presentation" >
         <h2 className='text-4xl text-center my-4'>À propos de nous</h2>
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 my-8 mx-8 justify-around'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 m-8 justify-around'>
           <div className='flex justify-center items-center' >
             <div className='lg:w-3/4 '>
               <p>iT-sis est, depuis sa création en <big className='font-bold'>2003</big>, spécialiste du service informatique global aux entreprises.</p><br />

@@ -29,10 +29,12 @@ export default function Contact() {
           </form>
           <img id="img-contact" loading="lazy" className='rounded-lg shadow-md shadow-black  absolute right-8 hidden xl:block mr-10 mt-6 transition duration-300 ease-in-out hover:scale-105 transform' src={contact} alt="" />
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 justify-items-center items-center" id="info-contact">
-          <div className='flex text-xl h-36 items-center'><img src={telephone} alt="icon telephone" className='max-h-8' /> <a href="tel:0238802792" className='pl-2'>: 02 38 80 27 92</a></div>
-          <div className='flex text-lg h-36 items-center '><img src={time} alt="icon mail" className='max-h-8' /> <p className='pl-2'> Ouverture du lundi au vendredi : <br /> de 9h à 12h et de 14h à 18h. </p></div>
-          <div className='flex text-xl h-36 items-center'><img src={mail} alt="icon mail" className='max-h-8' /> <a href="mailto:info@it-sis.com" className='pl-2'>: info@it-sis.com</a></div>
+        <div className="flex flex-col w-full lg:flex-row py-4 " id="info-contact">
+          <div className='flex flex-grow h-24 justify-center items-center'><img src={telephone} alt="icon telephone" className='max-h-8' /> <a href="tel:0238802792" className='pl-2'>: 02 38 80 27 92</a></div>
+          <div className="divider lg:divider-horizontal"></div>
+          <div className='flex flex-grow h-20 justify-center items-center '><img src={time} alt="icon mail" className='max-h-8' /> <p className='pl-2'> Ouverture du lundi au vendredi : <br /> de 9h à 12h et de 14h à 18h. </p></div>
+          <div className="divider lg:divider-horizontal"></div>
+          <div className='flex flex-grow h-20 justify-center items-center'><img src={mail} alt="icon mail" className='max-h-8' /> <a href="mailto:info@it-sis.com" className='pl-2'>: info@it-sis.com</a></div>
         </div>
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10690.290462686935!2d1.9297265!3d47.9446502!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e4fb760c82f785%3A0x27be90bd4e8f80df!2siT-sis!5e0!3m2!1sfr!2sfr!4v1699441002917!5m2!1sfr!2sfr" width="100%" height="400" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 

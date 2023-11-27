@@ -1,0 +1,13 @@
+article > .container {
+    height: 240px;
+    width: 240px;
+}
+
+.informations {
+    padding: 50px 15px 50px 15px;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.block-trans {
+    background-color: rgba(0,74,101,0.9);
+}
