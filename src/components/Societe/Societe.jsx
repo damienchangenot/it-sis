@@ -1,6 +1,6 @@
 import React from 'react'
 import './Societe.scss'
-import solution from '../../assets/icons/solutions.png';
+import solution from '../../assets/icons/solution.png';
 import networking from '../../assets/icons/networking.png';
 import speed from '../../assets/icons/speed.png';
 export default function Societe() {
@@ -26,15 +26,13 @@ export default function Societe() {
       <div >
         <div className=' flex flex-col gap-4 py-5 items-center justify-center'>
           {datas.map((data, index) => {
-            return <a key={data[0]} className="rounded-sm w-4/5 grid grid-cols-12 bg-white shadow shadow-black p-3 gap-2 items-center hover:shadow-lg transition duration-300 ease-in-out hover:scale-105 transform" href="#">
-              <div className="col-span-12 md:col-span-1">
-                  <img className='h-10 w-10' src={data[2]} alt="icon solution" />
+            return <a key={data[0]} className=" block-societe rounded-sm w-[90vw] grid grid-cols-12  shadow shadow-black p-3 gap-2 items-center hover:shadow-lg transition duration-300 ease-in-out hover:scale-105 transform" href="#">
+              <div className="col-span-12 lg:col-span-1 text-center">
+                  <img className='h-16 w-16 m-auto' src={data[2]} alt="icon solution" />
               </div>
-              <div className="col-span-11 xl:-ml-5">
-                <p className="text-blue-600 font-semibold">{data[0]}</p>
-              </div>
-              <div className="md:col-start-2 col-span-11 xl:-ml-5">
-                <p className="text-sm text-gray-800 font-light">{data[1]}
+              <div className="col-span-12 lg:col-span-11">
+                <p className="font-semibold text-base-content text-lg my-2 lg:mt-0 text-center">{data[0]}</p>
+                <p className="text-sm font-light">{data[1]}
                 </p>
               </div>
             </a>
