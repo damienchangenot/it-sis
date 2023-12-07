@@ -36,7 +36,7 @@ export default function Solutions() {
             </div>
           </div>
         </div>
-        <div className=' flex justify-center'>          
+        <div className=' flex justify-center m-8'>          
           <div className='md:w-3/4'>
             <p>iT-sis a sélectionné des solutions informatiques pour les besoins spécifiques de ses clients. Celles-ci correspondent à notre vision de l’informatique d’entreprise: simples et efficaces.</p>
             <br />

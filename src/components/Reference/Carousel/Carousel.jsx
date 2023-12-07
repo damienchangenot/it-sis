@@ -9,7 +9,7 @@ import fft from '../../../assets/reference/fft-logo.webp';
 import mairie from '../../../assets/reference/fleury.jpg';
 export default function Carousel({images}) {
   return (
-    <div className="slider md:rounded-lg md:max-w-[80vw]">
+    <div className="slider md:rounded-lg md:max-w-[90vw]">
 	<div className="slide-track">
 		<div className="slide">
 			<a href="https://fra.mars.com/" target="_blank"><img src={mars} height="100" width="250" alt="logo mars" loading="lazy"/></a>

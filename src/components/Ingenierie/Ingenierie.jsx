@@ -1,39 +1,44 @@
 import React from 'react'
 import ingenierie from '../../assets/ingenierie.jpg'
 import coding from '../../assets/coding.jpg'
+import supervision from '../../assets/supervision.jpg'
+
 export default function Ingenierie() {
   return (
     <section>
         <div className="hero min-h-[80vh]" style={{backgroundImage: `url(${ingenierie})`}}>
-          <div className="hero-overlay bg-opacity-50"></div>
+          <div className="hero-overlay bg-opacity-80"></div>
           <div className="hero-content text-center text-neutral-content">
-            <div className="max-w-md">
+            <div className="">
               <h1 className="mb-5 text-7xl font-bold transform transition duration-500 hover:scale-110">Ingénierie</h1>
+              <p>Afin de répondre au plus près aux besoins de nos clients, iT-sis est organisée en deux pôles d’ingénierie : la gestion des infrastructures et le développement de logiciels.</p>
+
             </div>
           </div>
         </div>
         <div>
-
-        <p>Afin de répondre au plus près aux besoins de nos clients, iT-sis est organisée en deux pôles d’ingénierie : la gestion des infrastructures et le développement de logiciels.</p>
-        
         <h2 className='text-4xl text-center my-4'>Gestion d’infrastructures</h2>
         <p className='text-center'>Métier initial d’iT-sis, nous gérons aujourd’hui les infrastructures de nos clients.</p>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 my-8 mx-12 justify-around'>
           <div>
               <h3 className='text-2xl text-center mb-4 font-bold'>Installation, paramétrage, déploiement de serveurs</h3>
-              <p>Nous répondons aux besoins de nos clients pour la mise à disposition des données et des services dont ils ont besoin en installant et en gérant la production de leurs serveurs, qu’ils soient physiques, virtualisés ou hybrides, y compris dans le cloud.</p>
+              <p className='mb-4'>Nous répondons aux besoins de nos clients pour la mise à disposition des données et des services dont ils ont besoin en installant et en gérant la production de leurs serveurs, qu’ils soient physiques, virtualisés ou hybrides, y compris dans le cloud.</p>
               <h3 className='text-2xl text-center mb-4 font-bold'>Conception, installation et déploiement réseaux</h3>
-              <p>L’accès rapide et fiable aux données de l’entreprise étant un atout stratégique, nous concevons des infrastructures réseau efficaces et pérennes (filaires, sans fil, optiques, etc.)</p>
+              <p className='mb-4'>L’accès rapide et fiable aux données de l’entreprise étant un atout stratégique, nous concevons des infrastructures réseau efficaces et pérennes (filaires, sans fil, optiques, etc.)</p>
               <h3 className='text-2xl text-center mb-4 font-bold'>Mise en oeuvre de la sécurité</h3>
               <p>L’efficacité de l’entreprise reposant sur l’accessibilité à ses infrastructures informatiques, nous gérons sa sécurité (intrusions, accès, malwares, etc.) et la sauvegarde des données, en environnement physique ou virtuel.</p>
           </div>
-          <div></div>
+          <div className='flex justify-center'>
+            <div className='max-w-lg text-center'>
+              <img src={supervision} alt="" className=' rounded-lg shadow-md shadow-black transition duration-300 ease-in-out hover:scale-105 transform' />
+            </div>
+          </div>
         </div>
         <h2 className='text-4xl text-center my-4'>Développement de logiciels</h2>
         <p className='text-center'>Spécialistes des technologies du web, nous intervenons chez nos clients dans deux grands domaines :</p>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 m-8 justify-around'>
           <div className='flex justify-center'>
-            <div className='max-w-xl'>
+            <div className='max-w-lg'>
               <img src={coding} alt="" className=' rounded-lg shadow-md shadow-black transition duration-300 ease-in-out hover:scale-105 transform' />
             </div>
           </div>
