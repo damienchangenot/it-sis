@@ -27,7 +27,7 @@ export default function Contact() {
               <button type="submit" className="btn btn-info">Envoyer</button>
             </div>
           </form>
-          <img id="img-contact" loading="lazy" className='rounded-lg shadow-md shadow-black  absolute right-8 hidden xl:block mr-10 mt-6 transition duration-300 ease-in-out hover:scale-105 transform' src={contact} alt="" />
+          <img id="img-contact" loading="lazy" className='intersect:animate-title-anim intersect-once rounded-lg shadow-md shadow-black  absolute right-8 hidden xl:block mr-10 mt-6 transition duration-300 ease-in-out hover:scale-105 transform' src={contact} alt="" />
         </div>
         <div className="flex flex-col w-full lg:flex-row py-4 " id="info-contact">
           <div className='flex flex-grow h-24 justify-center items-center'><img src={telephone} alt="icon telephone" className='max-h-8' /> <a href="tel:0238802792" className='pl-2'>: 02 38 80 27 92</a></div>

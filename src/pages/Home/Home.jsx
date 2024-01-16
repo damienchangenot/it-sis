@@ -23,7 +23,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <section id="presentation" >
+      <section id="presentation">
         <h2 className='text-4xl text-center my-4'>À propos de nous</h2>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 m-8 justify-around'>
           <div className='flex justify-center items-center' >
@@ -34,7 +34,9 @@ export default function Home() {
               <p>Nous sommes à votre service : contactez-nous pour découvrir nos solutions adaptées à vos besoins.</p>
             </div>
           </div>
-          <img loading="lazy" src={informatique} alt="reprensation informatique" className='rounded-lg shadow-md shadow-black transition duration-300 ease-in-out hover:scale-105 transform'/>
+          <div className='xl:w-4/5 '>
+              <img loading="lazy" src={informatique} alt="reprensation informatique" className='intersect:animate-title-anim rounded-lg shadow-md shadow-black transition duration-300 ease-in-out hover:scale-105 transform'/>
+          </div>
         </div>
       </section>
       <Societe></Societe>

@@ -30,7 +30,7 @@ export default function Ingenierie() {
           </div>
           <div className='flex justify-center'>
             <div className='max-w-lg text-center'>
-              <img src={supervision} alt="" className=' rounded-lg shadow-md shadow-black transition duration-300 ease-in-out hover:scale-105 transform' />
+              <img src={supervision} alt="" className='intersect:animate-title-anim intersect-once rounded-lg shadow-md shadow-black transition duration-300 ease-in-out hover:scale-105 transform' />
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@ export default function Ingenierie() {
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 m-8 justify-around'>
           <div className='flex justify-center'>
             <div className='max-w-lg'>
-              <img src={coding} alt="" className=' rounded-lg shadow-md shadow-black transition duration-300 ease-in-out hover:scale-105 transform' />
+              <img src={coding} alt="" className='intersect:animate-title-anim intersect-once rounded-lg shadow-md shadow-black transition duration-300 ease-in-out hover:scale-105 transform' />
             </div>
           </div>
           <div className='flex flex-col justify-center items-center text-center '>

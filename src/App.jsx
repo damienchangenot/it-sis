@@ -10,10 +10,18 @@ import Partenaires from './components/Partenaires/Partenaires'
 import NotFound from './pages/NotFound/NotFound'
 import './App.css'
 import {  Routes, Route } from 'react-router-dom';
+import Observer from 'tailwindcss-intersect';
+
+
 function App() {
+    try {
+      Observer.start();
+  } catch (e) {
+      console.log(e);
+  }
   return (
     <>
-    <header><NavBar></NavBar></header>
+    <header className="sticky top-0 z-50"><NavBar></NavBar></header>
     <main>
       <Routes>
         <Route path="/" element={<Home/>}></Route>

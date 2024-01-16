@@ -1,10 +1,9 @@
-import logoFooter from '../../assets/logo-footer.png'
 import './Footer.css'
 
 export default function Footer() {
   return (
     <>
-    <footer className="footer footer-center p-10 text-base-content rounded">
+    <footer className="footer footer-center p-10 rounded">
         <nav className="grid grid-flow-col gap-4">
             <a className="link link-hover">Plan du site</a> 
             <a className="link link-hover">Partenaires</a> 

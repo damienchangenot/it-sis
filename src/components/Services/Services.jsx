@@ -13,6 +13,14 @@ export default function Services() {
         </div>
         <h2 className='text-4xl text-center my-4'>Supervision, Administration, Maintenance, Assistance</h2>
         <p>Pour assurer à ses clients la meilleure continuité de services et de production, iT-sis propose des contrats très souples, adaptés aux particularités et aux contraintes de chaque client. iT-sis réalise, sur site ou à distance (télémaintenance) des prestations dans les domaines suivants :</p>
+        <ul>
+          <li>Supervision de réseaux</li>
+          <li>Administration de serveurs de production</li>
+          <li>Maintenance matérielle & logicielle</li>
+          <li>Assistance aux utilisateurs (helpdesk)</li>
+          <li>Formation / Transfert de compétences</li>
+          <li>Contrats mensuels, annuels, pluri-annuels ou crédits d’interventions</li>
+        </ul>
         <h2 className='text-4xl text-center my-4'>Domaines techniques maîtrisés</h2>
         <p>Nos clients utilisent nos compétences pour les aider à mettre en place et à maintenir leur infrastructure informatique, c’est pourquoi nous avons référencé et nous intégrons un grand nombre de systèmes réputés du marché, mais surtout correspondant aux besoins des entreprises.
             <br /> 

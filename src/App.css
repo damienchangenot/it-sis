@@ -4,6 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.light {
+    @apply bg-gray-100 text-black;
+}
 body{
     font-family: 'Montserrat', sans-serif;   
 }
