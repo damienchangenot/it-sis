@@ -27,7 +27,7 @@ h1, h2 {
     border-left: .3em solid transparent;
 }
 
-.menu.menu-horizontal, footer {
+.menu, footer {
     background-color: #004A65 ;
     color: #d4d4d4;
 }
